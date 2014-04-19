@@ -15,3 +15,5 @@ Thumbs.db
 
 # Ignore jetbrains ide folders
 .idea
+
+git-snippets
