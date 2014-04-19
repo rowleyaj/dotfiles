@@ -185,3 +185,9 @@
 [url "git://gist.github.com/"]
 
 	insteadOf = "gist:"
+
+[include]
+	path = ~/dotfiles/git-snippets/.urls
+
+[include]
+	path = ~/dotfiles/git-snippets/.user
