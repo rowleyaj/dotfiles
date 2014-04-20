@@ -1,7 +1,5 @@
-" Use the Solarized Dark theme
-set background=dark
-colorscheme solarized
-let g:solarized_termtrans=1
+" Use the Molokai theme (originally created for TextMate by Wimer Hazenberg)
+"colorscheme molokai
 
 " Make Vim more useful
 set nocompatible
@@ -46,8 +44,11 @@ set number
 syntax on
 " Highlight current line
 set cursorline
-" Make tabs as wide as two spaces
-set tabstop=2
+" Make tabs as wide as four spaces, indent 4 and expand to spaces
+set tabstop=4
+set shiftwidth=4
+set shiftround
+set expandtab
 " Show “invisible” characters
 set lcs=tab:▸\ ,trail:·,eol:¬,nbsp:_
 set list
