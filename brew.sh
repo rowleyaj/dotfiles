@@ -22,7 +22,11 @@ brew install moreutils
 brew install findutils
 # Install GNU `sed`, overwriting the built-in `sed`.
 brew install gnu-sed --with-default-names
+# Install GNU `tar`
+brew install gnu-tar
 # Install a modern version of Bash.
+# Note: don’t forget to add `/usr/local/bin/bash` to `/etc/shells` before
+# running `chsh`.
 brew install bash
 brew install bash-completion2
 
@@ -51,6 +55,16 @@ brew tap bramstein/webfonttools
 brew install sfnt2woff
 brew install sfnt2woff-zopfli
 brew install woff2
+
+# Install version switchers
+brew install pyenv
+brew install pyenv-virtualenv
+brew install rbenv
+brew install ruby-build
+
+# Install amazon tools
+brew install awscli
+brew install s3cmd
 
 # Install some CTF tools; see https://github.com/ctfs/write-ups.
 #brew install aircrack-ng
@@ -84,18 +98,61 @@ brew install ack
 brew install git
 brew install git-lfs
 brew install gs
+brew install hub
 brew install imagemagick --with-webp
+brew install libyaml
 brew install lua
 brew install lynx
+brew install mtr
+brew install ngrep
+brew install openssl
 brew install p7zip
 brew install pigz
 brew install pv
 brew install rename
 brew install rlwrap
 brew install ssh-copy-id
+brew install sshuttle
+brew install sysdig
+brew install tmux
 brew install tree
+brew install vagrant completion
 brew install vbindiff
+brew install watch
 brew install zopfli
+
+# Install cask and tap
+brew install phinze/cask/brew-cask
+brew tap caskroom/versions
+
+# Install cask applications
+brew cask install adobe-reader 2> /dev/null
+brew cask install alfred 2> /dev/null
+brew cask install dash 2> /dev/null
+brew cask install diskmaker-x 2> /dev/null
+brew cask install dropbox 2> /dev/null
+brew cask install filezilla 2> /dev/null
+brew cask install firefox 2> /dev/null
+brew cask install flowdock 2> /dev/null
+brew cask install google-chrome 2> /dev/null
+brew cask install google-chrome-canary 2> /dev/null
+brew cask install google-drive 2> /dev/null
+brew cask install google-hangouts 2> /dev/null
+brew cask install gpgtools 2> /dev/null
+brew cask install hipchat 2> /dev/null
+brew cask install intellij-idea 2> /dev/null
+brew cask install joinme 2> /dev/null
+brew cask install jxplorer 2> /dev/null
+brew cask install mou 2> /dev/null
+brew cask install onepassword 2> /dev/null
+brew cask install remote-desktop-connection 2> /dev/null
+brew cask install sequel-pro 2> /dev/null
+brew cask install skype 2> /dev/null
+brew cask install steam 2> /dev/null
+brew cask install totalterminal 2> /dev/null
+brew cask install tunnelblick 2> /dev/null
+brew cask install vagrant 2> /dev/null
+brew cask install virtualbox 2> /dev/null
 
 # Remove outdated versions from the cellar.
 brew cleanup
